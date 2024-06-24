@@ -1,22 +1,25 @@
 #company_name {
   font-size: 80px;
+  font-family: "Cute Font", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .nav_text {
-  font-size: 40px;
+  font-size: 30px;
+
 }
 
 
 .theme-font {
-  font-family: "Cute Font", sans-serif;
+  font-family: "Dosis",  sans-serif;
   font-weight: 400;
   font-style: normal;
-  opacity: 1 !important;
 }
 
 .general_text {
   text-align: justify;
 
-  font-size: 30px;
+  font-size: 20px;
 }
 
