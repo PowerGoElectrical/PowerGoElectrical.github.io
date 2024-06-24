@@ -1,21 +1,15 @@
-#company_name {
-  font-size: 80px;
+
+
+
+.cover_page_font {
   font-family: "Cute Font", sans-serif;
-  font-weight: 400;
   font-style: normal;
 }
 
-.nav_text {
-  font-size: 30px;
-}
-
-
-.theme-font {
+.contact_popup_font {
   font-family: "Dosis",  sans-serif;
-  font-weight: 400;
   font-style: normal;
 }
-
 
 
 html, body {
@@ -27,27 +21,21 @@ html, body {
   background-color: #f0f0f0; /* Optional: Background color for the page */
 }
 
-.text_wrapper {
+.centred_text_wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-
   text-align: center;
-
-  font-family: "Cute Font", sans-serif;
-  font-style: normal;
 }
 
 .question_text {
   text-align: center;
 
   font-size: 60px;  
-  font-weight: 400;  
 }
 
 .link_text {
   align-self: flex-end;
 
   font-size: 30px;
-  font-weight: 200;
 }
