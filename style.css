@@ -7,7 +7,6 @@
 
 .nav_text {
   font-size: 30px;
-
 }
 
 
@@ -17,9 +16,38 @@
   font-style: normal;
 }
 
-.general_text {
-  text-align: justify;
 
-  font-size: 20px;
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Optional: Background color for the page */
 }
 
+.text_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  text-align: center;
+
+  font-family: "Cute Font", sans-serif;
+  font-style: normal;
+}
+
+.question_text {
+  text-align: center;
+
+  font-size: 60px;  
+  font-weight: 400;  
+}
+
+.link_text {
+  align-self: flex-end;
+
+  font-size: 30px;
+  font-weight: 200;
+}
