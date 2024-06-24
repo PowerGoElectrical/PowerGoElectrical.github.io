@@ -18,7 +18,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f0f0f0; /* Optional: Background color for the page */
+  background-color: #90aead;
 }
 
 .centred_text_wrapper {
@@ -36,6 +36,7 @@ html, body {
 
 .link_text {
   /* align-self: flex-end; */
-
+  color: inherit;
+  text-decoration: underline;
   font-size: 30px;
 }
